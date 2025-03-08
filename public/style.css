@@ -1,0 +1,100 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #6ae8be, #1e1e1e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Chat container */
+.chat-container {
+    width: 360px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.chat-container h1 {
+    background: #007AFF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Chat box */
+#chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message bubbles */
+.message {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+/* User message (blue) */
+.user-message {
+    background: #007AFF;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 5px;
+}
+
+/* Bot message (gray) */
+.bot-message {
+    background: #E5E5EA;
+    color: black;
+    align-self: flex-start;
+    border-bottom-left-radius: 5px;
+}
+
+/* Input area */
+.input-container {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+}
+
+/* Input field */
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Send button */
+#send-button {
+    background: #007AFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#send-button:hover {
+    background: #005ecb;
+}
