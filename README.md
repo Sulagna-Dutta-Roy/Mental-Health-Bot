@@ -12,7 +12,7 @@ A sleek, dark-themed chatbot inspired by Apple's design, built to provide mental
 - **Frontend:** HTML, CSS , JS
 - **Backend:** Node.js, Express.js
 - **API:** Google Gemini API
-- **Deployment:** Vercel (Frontend), Render (Backend)
+- **Deployment:** Vercel (Production)
 
 ## Installation
 
@@ -46,18 +46,6 @@ A sleek, dark-themed chatbot inspired by Apple's design, built to provide mental
    ```sh
    vercel
    ```
-
-### Deploy Backend to Render
-1. Push your code to GitHub.
-2. Go to [Render](https://render.com/), create a new **Web Service**.
-3. Connect your repository and select the branch.
-4. Set **Environment Variables** (`GEMINI_API_KEY`).
-5. Deploy!
-
-## Usage
-- Type your message and hit **Enter** or click **Send**.
-- The chatbot responds using the Gemini API.
-- Experience a smooth, stylish chat interface.
 
 ## License
 This project is open-source under the MIT License.
